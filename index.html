@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>YAY! It's BOGO</h2>
+
+ 
+  <div class="unit-box">
+    <input type="radio" name="unit" id="unit1" value="1">
+    <label for="unit1" class="unit-label">
+      1 Unit <span class="offer">10% Off</span> <span class="price">$10.00 USD</span>
+    </label>
+    <div class="selectors" id="selectors1"></div>
+  </div>
+
+  
+  <div class="unit-box">
+    <input type="radio" name="unit" id="unit2" value="2">
+    <label for="unit2" class="unit-label popular">
+      2 Unit <span class="offer">20% Off</span> <span class="price">$18.00 USD</span>
+      <span class="tag">MOST POPULAR</span>
+    </label>
+    <div class="selectors" id="selectors2"></div>
+  </div>
+
+  
+  <div class="unit-box">
+    <input type="radio" name="unit" id="unit3" value="3">
+    <label for="unit3" class="unit-label">
+      3 Unit <span class="offer">30% Off</span> <span class="price">$24.00 USD</span>
+    </label>
+    <div class="selectors" id="selectors3"></div>
+  </div>
+
+
+  <div class="footer">
+    <p class="free-delivery">Free Delivery</p>
+    <p>Total : <span id="totalPrice">$0.00 USD</span></p>
+  </div>
+
+  <button class="add-to-cart">+ Add to Cart</button>
+
+  <script src="Script.js"></script>
+</body>
+</html>
